@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Logo_RAD.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="EasyDox, Version=2.0.39.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\EasyDox.2.0.39\lib\EasyDox.dll</HintPath>
@@ -156,6 +159,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Logo_RAD.ico" />
     <Content Include="Resources\AppIcon.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
